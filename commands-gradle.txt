@@ -1,0 +1,3 @@
+gradlew build && java -jar build/libs/initial.jar
+gradlew bootRun
+
