@@ -31,7 +31,7 @@ shopt -q login_shell || . /etc/profile.d/git-prompt.sh
 shopt -q login_shell || . /etc/profile.d/git-prompt.sh
 
 # how many level directory is show on cmd
-PROMPT_DIRTRIM=3
+PROMPT_DIRTRIM=1
 
 # Fixup git-bash in non login env
 shopt -q login_shell || . /etc/profile.d/git-prompt.sh
