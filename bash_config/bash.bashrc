@@ -5,6 +5,12 @@
 # with this software. 
 # If not, see <http://creativecommons.org/publicdomain/zero/1.0/>. 
 
+set_screen_title ()
+{
+    echo -ne "\u@\h "
+}
+
+
 # /etc/bash.bashrc: executed by bash(1) for interactive shells.
 
 # System-wide bashrc file
