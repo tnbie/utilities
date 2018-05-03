@@ -40,7 +40,7 @@ sleep 1
 echo 'populate files - css'
 sleep 1
 echo ' ' >> mystyle.css
-echo ' ' >> mystyle.css
+echo ' ' >> theme.css
 sleep 1
 echo 'finishing...'
 sleep 1

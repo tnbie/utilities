@@ -25,9 +25,11 @@ sleep 1
 sh 'boilerfiles/mover.sh'
 sleep 2
 
-# four: copy dist to mvapp folder
-cp -r 'C:\Users\a0051455\Documents\dist' 'mvapp\dist'
-sleep 1
+# four: copy dist to mvapp folder# 
+
+# cp -r 'C:\Users\a0051455\Documents\dist' 'mvapp\dist'#
+
+# sleep 1#
 
 # five: check all files if created
 echo 'check all!'

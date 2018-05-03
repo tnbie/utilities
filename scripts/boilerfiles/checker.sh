@@ -4,13 +4,10 @@
 
 echo 'checker v0.0.1'
 echo 'accessing folder'
-cd mvapp
-cd dist
-ls -l -a -s
-cd ..
 sleep 1
-echo 'list all'
-ls -l -a -s
-sleep 2
 echo 'verify'
+sleep 1
+ls mvapp/test mvapp/model mvapp/viewers mvapp/controller mvapp/assets mvapp/img -l -a -s -k
+cd ..
+echo 'finished'
 exit
