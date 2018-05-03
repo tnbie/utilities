@@ -1,7 +1,5 @@
 #!/bin/bash +x
-
 #!/bin/bash utf-8
-
 echo -e 'boilerplate v0.0.1'
 echo 'starting...'
 sleep 1
@@ -37,6 +35,9 @@ echo '<p></p>' >> new.html
 echo '<p></p>' >> new.html
 echo '<p></p>' >> new.html
 echo '<h2">Header 2</h2>'  >>new.html
+echo '<p></p>' >> new.html
+echo '<p></p>' >> new.html
+echo '<p></p>' >> new.html
 echo '<--! Javascript on the page bottom to improve speed-->' >> new.html
 echo '<script src=""></script>' >> new.html
 echo '<script src=""></script>' >> new.html
@@ -47,7 +48,7 @@ echo 'populate files - css'
 sleep 1
 echo ' /* Only edit this file below this comment */' >> mystyle.css
 sleep 1
-echo '  /* Only edit this file below this comment */' >> theme.css
+echo ' /* Only edit this file below this comment */' >> theme.css
 sleep 1
 echo 'finishing...'
 sleep 1
