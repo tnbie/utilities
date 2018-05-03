@@ -7,6 +7,6 @@ CREATE TABLE customers (
   address varchar(100) NOT NULL,
   address_number int NOT NULL,
   city varchar(100) NOT NULL, 
-  state varchar(50)  NOT NULL,
+  postal_code varchar(10) NOT NULL,
   country varchar(50) NOT NULL
   );

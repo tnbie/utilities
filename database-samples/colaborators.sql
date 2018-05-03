@@ -7,7 +7,12 @@ CREATE TABLE colaborators (
   address varchar(100) NOT NULL,
   address_number int NOT NULL,
   city varchar(100) NOT NULL, 
-  state varchar(50)  NOT NULL,
+  postal_code varchar(10) NOT NULL,
   country varchar(50) NOT NULL
+  admission_date date(10) NOT NULL,
+  role varchar(50) NOT NULL,
+  role_id int(10) NOT NULL,
+  division varchar(50) NOT NULL,
+  division_id int(10) NOT NULL
   );
   
