@@ -32,9 +32,12 @@ echo '<title></title>' >> new.html
 echo '</head>' >> new.html
 echo '<br>' >> new.html
 echo '<body>' > new.html
-echo '<h1 class="text-center">Header 1</h1>'  >>new.html
-echo '<br>' >> new.html
-echo '<--! Javascript on the page bottom to improve speed-->'
+echo '<h1>Header 1</h1>'  >>new.html
+echo '<p></p>' >> new.html
+echo '<p></p>' >> new.html
+echo '<p></p>' >> new.html
+echo '<h2">Header 2</h2>'  >>new.html
+echo '<--! Javascript on the page bottom to improve speed-->' >> new.html
 echo '<script src=""></script>' >> new.html
 echo '<script src=""></script>' >> new.html
 echo '</body>' >> new.html
@@ -44,7 +47,7 @@ echo 'populate files - css'
 sleep 1
 echo ' /* Only edit this file below this comment */' >> mystyle.css
 sleep 1
-echo ' ' >> theme.css
+echo '  /* Only edit this file below this comment */' >> theme.css
 sleep 1
 echo 'finishing...'
 sleep 1
