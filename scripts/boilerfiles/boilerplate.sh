@@ -16,7 +16,7 @@ echo 'populate files - html'
 sleep 1
 echo '<!DOCTYPE html>' >> new.html
 echo '<html lang="en">' >> new.html
-echo '<--! Only edit the code above this line -->' >> new.html
+echo '<--! Only edit the code above this comment -->' >> new.html
 echo '<head>' >> new.html
 echo '<meta charset="utf-8">' >> new.html
 echo '<meta name="author" content="">' >> new.html
@@ -34,6 +34,7 @@ echo '<br>' >> new.html
 echo '<body>' > new.html
 echo '<h1 class="text-center">Header 1</h1>'  >>new.html
 echo '<br>' >> new.html
+echo '<--! Javascript on the page bottom to improve speed-->'
 echo '<script src=""></script>' >> new.html
 echo '<script src=""></script>' >> new.html
 echo '</body>' >> new.html
@@ -41,7 +42,7 @@ echo '</html>' >> new.html
 sleep 1
 echo 'populate files - css'
 sleep 1
-echo ' ' >> mystyle.css
+echo ' /* Only edit this file below this comment */' >> mystyle.css
 sleep 1
 echo ' ' >> theme.css
 sleep 1
