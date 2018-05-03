@@ -16,6 +16,7 @@ echo 'populate files - html'
 sleep 1
 echo '<!DOCTYPE html>' >> new.html
 echo '<html lang="en">' >> new.html
+echo '<--! Only edit the code above this line -->' >> new.html
 echo '<head>' >> new.html
 echo '<meta charset="utf-8">' >> new.html
 echo '<meta name="author" content="">' >> new.html
@@ -25,21 +26,23 @@ echo '<meta http-equiv="content-language" content="pt-br">' >> new.html
 echo '<meta http-equiv="Content-Type" content="text/html">' >> new.html
 echo '<meta http-equiv="X-UA-Compatible" content="IE=edge">' >> new.html
 echo '<meta name="viewport" content="width=device-width, initial-scale=1.0">' >> new.html
-echo '<link rel="stylesheet" type="text/css" href="./dist/css/bootstrap.min.css">' >> new.html
+echo '<--! Only edit the code above this line -->' >> new.html
+echo '<link rel="stylesheet" type="text/css" href="#">' >> new.html
 echo '<title></title>' >> new.html
 echo '</head>' >> new.html
 echo '<br>' >> new.html
 echo '<body>' > new.html
 echo '<h1 class="text-center">Header 1</h1>'  >>new.html
 echo '<br>' >> new.html
-echo '<script src="./dist/js/jquery.js"></script>' >> new.html
-echo '<script src="./dist/js/bootstrap.min.js"></script>' >> new.html
+echo '<script src=""></script>' >> new.html
+echo '<script src=""></script>' >> new.html
 echo '</body>' >> new.html
 echo '</html>' >> new.html
 sleep 1
 echo 'populate files - css'
 sleep 1
 echo ' ' >> mystyle.css
+sleep 1
 echo ' ' >> theme.css
 sleep 1
 echo 'finishing...'
