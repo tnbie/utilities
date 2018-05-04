@@ -9,4 +9,4 @@ CREATE TABLE customers (
   city varchar(100) NOT NULL, 
   postal_code varchar(10) NOT NULL,
   country varchar(50) NOT NULL
-  );
+  ) DEFAULT CHARSET=utf8;
