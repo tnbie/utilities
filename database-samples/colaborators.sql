@@ -1,5 +1,5 @@
 CREATE TABLE colaborators (
-  colab_id int PRIMARY KEY AUTO_INCREMENT,
+  colab_id int(10) PRIMARY KEY AUTO_INCREMENT,
   name varchar(50) NOT NULL,
   lastname varchar(50) NOT NULL,
   email varchar(100) NOT NULL,
@@ -14,5 +14,5 @@ CREATE TABLE colaborators (
   role_id int(10) NOT NULL,
   division varchar(50) NOT NULL,
   division_id int(10) NOT NULL
-  );
+  ) DEFAULT CHARSET=utf8;
   
