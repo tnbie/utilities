@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: 08-Maio-2018 às 06:16
+-- Generation Time: 08-Maio-2018 às 06:17
 -- Versão do servidor: 5.7.19
 -- PHP Version: 5.6.31
 
@@ -25,16 +25,18 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `customer`
+-- Estrutura da tabela `work_order`
 --
 
-DROP TABLE IF EXISTS `customer`;
-CREATE TABLE IF NOT EXISTS `customer` (
-  `customer_id` int(11) NOT NULL AUTO_INCREMENT,
-  `first_name` varchar(100) NOT NULL,
-  `last_name` varchar(100) NOT NULL,
-  `email` varchar(100) NOT NULL,
-  PRIMARY KEY (`customer_id`)
+DROP TABLE IF EXISTS `work_order`;
+CREATE TABLE IF NOT EXISTS `work_order` (
+  `work_id` int(11) NOT NULL AUTO_INCREMENT,
+  `work_order_name` varchar(200) NOT NULL,
+  `customer_id` int(11) NOT NULL,
+  `product_id` int(11) NOT NULL,
+  PRIMARY KEY (`work_id`),
+  KEY `customer_id` (`customer_id`),
+  KEY `product_id` (`product_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 COMMIT;
 

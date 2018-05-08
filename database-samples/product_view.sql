@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: 08-Maio-2018 às 06:16
+-- Generation Time: 08-Maio-2018 às 06:17
 -- Versão do servidor: 5.7.19
 -- PHP Version: 5.6.31
 
@@ -25,17 +25,16 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `customer`
+-- Structure for view `product_view`
 --
 
-DROP TABLE IF EXISTS `customer`;
-CREATE TABLE IF NOT EXISTS `customer` (
-  `customer_id` int(11) NOT NULL AUTO_INCREMENT,
-  `first_name` varchar(100) NOT NULL,
-  `last_name` varchar(100) NOT NULL,
-  `email` varchar(100) NOT NULL,
-  PRIMARY KEY (`customer_id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `product_view`  AS  select `product`.`product_id` AS `product_id`,`product`.`name` AS `name`,`product`.`categorie` AS `categorie`,`product`.`amount` AS `amount`,`product`.`price` AS `price` from `product` ;
+
+--
+-- VIEW  `product_view`
+-- Data: Nenhum
+--
+
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
