@@ -5,7 +5,7 @@
 # with this software. 
 # If not, see <http://creativecommons.org/publicdomain/zero/1.0/>. 
 
-PROMPT_COMMAND='echo -ne "\033]0;gitbash\007"'
+PROMPT_COMMAND='echo -ne "\033]0;gitbash --ozaerys h\007"'
 
 
 # /etc/bash.bashrc: executed by bash(1) for interactive shells.
