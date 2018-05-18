@@ -5,10 +5,7 @@
 # with this software. 
 # If not, see <http://creativecommons.org/publicdomain/zero/1.0/>. 
 
-set_screen_title ()
-{
-    echo -ne "\u@\h "
-}
+PROMPT_COMMAND='echo -ne "\033]0;gitbash\007"'
 
 
 # /etc/bash.bashrc: executed by bash(1) for interactive shells.
