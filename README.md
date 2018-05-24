@@ -1,7 +1,3 @@
-## Utilities
+## utilities
 
-- database samples
-- bash scripts
-- bat scripts
-- boilerplates
-- up-to-date files
+#### models, files, databases querys, sample files, etc.
