@@ -1,1 +1,3 @@
+// cria projeto no django
 django-admin startproject dir_name
+
