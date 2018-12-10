@@ -5,7 +5,9 @@
 :: set echo off
 @echo off
 
+
 :: view status before
+echo "getting status"
 git status
 
 :: add files for change
