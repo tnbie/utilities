@@ -1,7 +1,7 @@
 :: template for upload file
 :: git vcs
 :: author @erichm
-color 02
+
 :: set echo off
 @echo off
 for /f "tokens=2 delims==" %%a in ('wmic OS Get localdatetime /value') do set "dt=%%a"
@@ -11,44 +11,42 @@ set "datestamp=%YYYY%%MM%%DD%" & set "timestamp=%HH%%Min%%Sec%"
 set "fullstamp=%YYYY%-%MM%-%DD% %HH%-%Min%-%Sec%"
 
 :: view status before
-echo [INFO] %fullstamp% :preview changes
+color 06 echo [INFO] %fullstamp% :preview changes
 @echo off 
 git status
 @echo off
 
 :: add files for change
-echo [INFO] %fullstamp% :adding files
+color 07 echo [INFO] %fullstamp% :adding files
 @echo off
 git add .
 @echo off
 
 :: get status after
-echo [INFO] %fullstamp% :preloaded changes
+color 05 echo [INFO] %fullstamp% :preloaded changes
 @echo off
 git status
 @echo off
 
 :: commit changes for file 
-echo [INFO] %fullstamp% :commit changes
+color 03 echo [INFO] %fullstamp% :commit changes
 @echo off
 git commit -m "upload file"
 @echo off
 
 :: upload changes to remote
-color 02
-echo [INFO] %fullstamp% :uploading started
+color 02 echo [INFO] %fullstamp% :uploading started
 @echo off
 git push origin master
-color 03
-echo [INFO] %fullstamp% :uploading finished
+color 04 echo [INFO] %fullstamp% :uploading finished
 @echo off
 
 :: pause file execution
-echo [INFO] %fullstamp% :pausing
+color 01 echo [INFO] %fullstamp% :pausing
 @echo off
 :: pause
 
 :: exit from file
-echo [INFO] %fullstamp% :exiting
+color 0C echo [INFO] %fullstamp% :exiting
 @echo off
 :: exit
