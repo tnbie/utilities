@@ -11,10 +11,10 @@ start git_type_action.bat
 
 #### generate auto commit commands for:
 
-- [x] action: create
-- [x] action: update
-- [x] action: read
-- [x] action: delete
+- [x] gppr_action: create
+- [x] gppr_action: update
+- [x] gppr_action: read
+- [x] gppr_action: delete
 - [x] type: fix
 - [x] type: errors
 - [x] type: bug
