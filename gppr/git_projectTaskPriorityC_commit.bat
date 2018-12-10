@@ -1,4 +1,4 @@
-:: template for enhancement LEVEL A file
+:: template for upload file
 :: git vcs
 :: author @erichm
 
@@ -31,7 +31,7 @@ git status
 :: commit changes for file 
 echo [INFO]-%fullstamp% :commit changes
 @echo off
-git commit -m "enhancement: great[purpose]" 
+git commit -m "task priority: poor[purpose]" 
 @echo off
 
 :: upload changes to remote
