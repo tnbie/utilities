@@ -50,9 +50,9 @@ git status
 :: pause file execution
 echo [INFO]-%fullstamp% :pausing
 @echo off
-:: pause
+::pause
 
 :: exit from file
 echo [INFO]-%fullstamp% :exiting
 @echo off
-:: exit
+exit
