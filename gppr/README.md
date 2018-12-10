@@ -5,6 +5,7 @@
 
 ```console
 # on selected root
+# simple usage
 user@host:~$ start git_gppr_action.bat
 ```
 
