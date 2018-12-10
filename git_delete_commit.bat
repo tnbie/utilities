@@ -1,7 +1,13 @@
+:: template for delete file commit on git
+:: author @erichm
+
+::view status before
+git status
+
 :: add files for change
 git add .
 
-:: get status
+:: get status after
 git status
 
 :: commit changes for file 
