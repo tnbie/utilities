@@ -17,7 +17,7 @@ set "fullstamp=%YYYY%-%MM%-%DD%_%HH%-%Min%-%Sec%"
 
 
 :: view status before
-%datestamp% getting status
+datestamp getting status
 git status
 
 :: add files for change
