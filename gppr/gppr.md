@@ -1,7 +1,10 @@
 ### GPPR - git power pack runner
 
+
+#### basic usage
+
 ```sh
--- on specified git folder root
+# on selected root
 start git_type_action.bat
 ```
 
