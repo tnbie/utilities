@@ -2,7 +2,7 @@
 :: git vcs
 :: author @erichm
 
-:: create time types
+:: create dates
 @echo off
 for /f "tokens=2 delims==" %%a in ('wmic OS Get localdatetime /value') do set "dt=%%a"
 set "YY=%dt:~2,2%" & set "YYYY=%dt:~0,4%" & set "MM=%dt:~4,2%" & set "DD=%dt:~6,2%"
@@ -35,10 +35,16 @@ git commit -m "upload file"
 @echo off
 
 :: upload changes to remote
-echo [INFO]-%fullstamp% :uploading started
+echo [INFO]-%fullstamp% :upload started
 @echo off
 git push origin master
-echo [INFO]-%fullstamp% :uploading finished
+echo [INFO]-%fullstamp% :upload finished
+@echo off
+
+:: get status
+echo [INFO]-%fullstamp% :status now
+@echo off
+git status
 @echo off
 
 :: pause file execution
