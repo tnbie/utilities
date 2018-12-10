@@ -1,7 +1,10 @@
 :: template for delete file commit on git
 :: author @erichm
 
-::view status before
+:: set echo off
+@echo off
+
+:: view status before
 git status
 
 :: add files for change
