@@ -31,7 +31,7 @@ git status
 :: commit changes for file 
 echo [INFO]-%fullstamp% :commit changes
 @echo off
-git commit -m "upload file"
+git commit -m "upload file" 
 @echo off
 
 :: upload changes to remote
