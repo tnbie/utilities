@@ -3,9 +3,9 @@
 
 #### basic usage
 
-```sh
+```console
 # on selected root
-start git_type_action.bat
+user@domain $ start git_gppr_action.bat
 ```
 
 
