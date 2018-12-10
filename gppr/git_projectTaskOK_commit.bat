@@ -1,4 +1,4 @@
-:: template for delete duplicate file
+:: template for project task OK file
 :: git vcs
 :: author @erichm
 
@@ -31,7 +31,7 @@ git status
 :: commit changes for file 
 echo [INFO]-%fullstamp% :commit changes
 @echo off
-git commit -m "delete duplicate file" 
+git commit -m "project task: OK[no issue]" 
 @echo off
 
 :: upload changes to remote
