@@ -18,21 +18,18 @@ git status
 @echo off
 
 :: add files for change
-color 07 
 echo [INFO] %fullstamp% :adding files
 @echo off
 git add .
 @echo off
 
 :: get status after
-color 05 
 echo [INFO] %fullstamp% :preloaded changes
 @echo off
 git status
 @echo off
 
 :: commit changes for file 
-color 03 
 echo [INFO] %fullstamp% :commit changes
 @echo off
 git commit -m "upload file"
@@ -48,13 +45,12 @@ echo [INFO] %fullstamp% :uploading finished
 @echo off
 
 :: pause file execution
-color 01 
 echo [INFO] %fullstamp% :pausing
 @echo off
 :: pause
 
 :: exit from file
-color 0C 
+color 06 
 echo [INFO] %fullstamp% :exiting
 @echo off
 :: exit
