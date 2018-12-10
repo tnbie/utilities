@@ -17,7 +17,7 @@ set "fullstamp=%YYYY%-%MM%-%DD%_%HH%-%Min%-%Sec%"
 
 
 :: view status before
-echo %datestamp% getting status
+echo %fullstamp% getting status
 @echo off 
 git status
 
