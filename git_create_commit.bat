@@ -1,4 +1,5 @@
-:: template for delete file commit on git
+:: template for create file
+:: git
 :: author @erichm
 
 :: set echo off
@@ -14,8 +15,8 @@ git add .
 :: get status
 git status
 
-:: commit chnages for file 
+:: commit changes for file 
 git commit -m "created file"
 
-:: upload chnages to remote
+:: upload changes to remote
 git push origin master

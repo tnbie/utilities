@@ -1,4 +1,5 @@
-:: template for delete file commit on git
+:: template for delete duplicated file
+:: git
 :: author @erichm
 
 :: set echo off

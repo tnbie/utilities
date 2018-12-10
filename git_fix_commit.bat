@@ -1,5 +1,5 @@
-:: template for upload file
-:: git
+:: template for fix file
+:: git 
 :: author @erichm
 
 :: set echo off
@@ -15,7 +15,7 @@ git add .
 git status
 
 :: commit changes for file 
-git commit -m "upload file"
+git commit -m "fix file"
 
 :: upload changes to remote
 git push origin master
