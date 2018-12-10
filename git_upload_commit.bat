@@ -18,19 +18,25 @@ set "fullstamp=%YYYY%-%MM%-%DD%_%HH%-%Min%-%Sec%"
 
 :: view status before
 echo %datestamp% getting status
+@echo off 
 git status
 
 :: add files for change
+@echo off
 git add .
 
 :: get status
+@echo off
 git status
 
 :: commit changes for file 
+@echo off
 git commit -m "upload file"
 
 :: upload changes to remote
+@echo off
 git push origin master
 
 :: exit from file
+@echo off
 exit
