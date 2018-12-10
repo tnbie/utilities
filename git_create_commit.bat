@@ -1,5 +1,5 @@
 :: template for create file
-:: git
+:: git vcs
 :: author @erichm
 
 :: set echo off

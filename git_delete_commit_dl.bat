@@ -1,5 +1,5 @@
 :: template for delete duplicated file
-:: git
+:: git vcs
 :: author @erichm
 
 :: set echo off

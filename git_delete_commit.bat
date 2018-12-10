@@ -1,5 +1,5 @@
 :: template for delete file
-:: git
+:: git vcs
 :: author @erichm
 
 :: set echo off
