@@ -41,12 +41,12 @@ git push origin master
 echo [INFO] %fullstamp% :uploading finished
 @echo off
 
-:: pause
+:: pause file execution
 echo [INFO] %fullstamp% :pausing
 @echo off
-pause
+:: pause
 
 :: exit from file
 echo [INFO] %fullstamp% :exiting
 @echo off
-exit
+:: exit
