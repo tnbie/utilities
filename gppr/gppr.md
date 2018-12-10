@@ -1,6 +1,6 @@
 ### GPPR - git power pack runner
 
-#### command list
+#### generate auto commit commands for:
 
 - [x] create
 - [x] update
