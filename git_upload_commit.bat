@@ -11,42 +11,42 @@ set "datestamp=%YYYY%%MM%%DD%" & set "timestamp=%HH%%Min%%Sec%"
 set "fullstamp=%YYYY%-%MM%-%DD% %HH%-%Min%-%Sec%"
 
 :: view status before
-echo [INFO] %fullstamp% :preview changes
+echo [INFO]-%fullstamp% :preview changes
 @echo on
 git status
 @echo off
 
 :: add files for change
-echo [INFO] %fullstamp% :adding files
+echo [INFO]-%fullstamp% :adding files
 @echo off
 git add .
 @echo off
 
 :: get status after
-echo [INFO] %fullstamp% :preloaded changes
+echo [INFO]-%fullstamp% :preloaded changes
 @echo off
 git status
 @echo off
 
 :: commit changes for file 
-echo [INFO] %fullstamp% :commit changes
+echo [INFO]-%fullstamp% :commit changes
 @echo off
 git commit -m "upload file"
 @echo off
 
 :: upload changes to remote
-echo [INFO] %fullstamp% :uploading started
+echo [INFO]-%fullstamp% :uploading started
 @echo off
 git push origin master
-echo [INFO] %fullstamp% :uploading finished
+echo [INFO]-%fullstamp% :uploading finished
 @echo off
 
 :: pause file execution
-echo [INFO] %fullstamp% :pausing
+echo [INFO]-%fullstamp% :pausing
 @echo off
 :: pause
 
 :: exit from file
-echo [INFO] %fullstamp% :exiting
+echo [INFO]-%fullstamp% :exiting
 @echo off
 :: exit
