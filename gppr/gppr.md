@@ -1,5 +1,11 @@
 ### GPPR - git power pack runner
 
+```shell
+-- on specified git folder root
+start git_type_action.bat
+```
+
+
 #### generate auto commit commands for:
 
 - [x] create
