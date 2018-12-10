@@ -22,3 +22,17 @@ user@host:~$ start git_gppr_action.bat
 - [x] gppr_action_type: tasks
 - [x] gppr_action_type: project 
 - [ ] gppr_action_type: personalized messages
+
+### how works
+
+```console
+# how git works
+## you need to commit every single commit and is boring but all changes need to be stored.
+user@host:~$ git commit -m "commit message"
+```
+
+```console
+# how gppr works
+# on development state, commit message need be clean and organized, and gppr know how e.g below
+user@host:~$ start gppr_upload_commit.bat
+```
