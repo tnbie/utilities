@@ -37,6 +37,11 @@ user@host:~$ git commit -m "commit message"
 user@host:~$ start gppr_upload_commit.bat
 ```
 
+### gain
+
+- about 95% improve time capability
+- automate tasks
+
 ### why use?
 
 - feel free to test
