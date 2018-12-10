@@ -15,10 +15,10 @@ start git_type_action.bat
 - [x] gppr_action: update
 - [x] gppr_action: read
 - [x] gppr_action: delete
-- [x] type: fix
-- [x] type: errors
-- [x] type: bug
-- [x] type: enhancement
-- [x] type: tasks
-- [x] type: project 
-- [ ] type: personalized messages
+- [x] gppr_action_type: fix
+- [x] gppr_action_type: errors
+- [x] gppr_action_type: bug
+- [x] gppr_action_type: enhancement
+- [x] gppr_action_type: tasks
+- [x] gppr_action_type: project 
+- [ ] gppr_action_type: personalized messages
