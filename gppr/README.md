@@ -36,3 +36,10 @@ user@host:~$ git commit -m "commit message"
 # on development state, commit message need be clean and organized, and gppr know how e.g below
 user@host:~$ start gppr_upload_commit.bat
 ```
+
+### why use?
+
+- feel free to test
+- development and educational purposes only
+- no commercial use
+- learn command line, its cool.
