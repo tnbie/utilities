@@ -11,7 +11,6 @@ git status
 :: add files for change
 git add .
 
-
 :: get status
 git status
 
@@ -20,3 +19,6 @@ git commit -m "created file"
 
 :: upload changes to remote
 git push origin master
+
+:: exit from file
+exit

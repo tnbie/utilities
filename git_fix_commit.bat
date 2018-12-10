@@ -19,3 +19,6 @@ git commit -m "fix file"
 
 :: upload changes to remote
 git push origin master
+
+:: exit from file
+exit
