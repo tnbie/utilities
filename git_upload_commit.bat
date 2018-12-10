@@ -35,9 +35,10 @@ git commit -m "upload file"
 @echo off
 
 :: upload changes to remote
-echo [INFO] %fullstamp% :uploading changes...
+echo [INFO] %fullstamp% :uploading started
 @echo off
 git push origin master
+echo [INFO] %fullstamp% :uploading finished
 @echo off
 
 :: pause
