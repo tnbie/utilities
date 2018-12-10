@@ -5,7 +5,7 @@
 
 ```console
 # on selected root
-user@host~$ start git_gppr_action.bat
+user@host:~$ start git_gppr_action.bat
 ```
 
 #### generate auto commit commands for:
