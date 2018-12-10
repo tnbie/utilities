@@ -1,13 +1,14 @@
 :: template for upload file
 :: git vcs
 :: author @erichm
+date echo getting status
+date echo getting status
 
 :: set echo off
 @echo off
 
-
 :: view status before
-echo "getting status"
+echo getting status
 git status
 
 :: add files for change
