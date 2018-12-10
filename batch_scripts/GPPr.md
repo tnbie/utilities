@@ -1,6 +1,6 @@
-#### git power pack-runner
+### GPPR - git power pack runner
 
-##### git commands via cmd
+##### command list
 
 - create
 - update
@@ -9,3 +9,7 @@
 - fix
 - errors
 - bug
+- enhancement
+- tasks
+- project 
+- personalized messages
